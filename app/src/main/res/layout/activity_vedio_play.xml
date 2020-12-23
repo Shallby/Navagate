@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+                <RelativeLayout
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="播放视频"
+                        android:layout_marginLeft="170dp"
+                        android:textSize="22sp"
+                        />
+                    <VideoView
+                        android:id="@+id/videoView"
+                        android:layout_below="@+id/title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="580dp"
+                        />
+                    <Button
+                        android:id="@+id/BeginVideo"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100dp"
+                        android:onClick="Begin"
+                        android:layout_below="@+id/videoView"
+                        android:text="本地播放" />
+                    <Button
+                        android:id="@+id/nextVideo"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/BeginVideo"
+                        android:onClick="nextVideo"
+                        android:layout_below="@+id/videoView"
+                        android:text="网络播放" />
+                    <Button
+                        android:id="@+id/pauseVideo"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:onClick="pauseVideo"
+                        android:layout_below="@+id/BeginVideo"
+                        android:layout_marginLeft="100dp"
+                        android:text="暂停播放" />
+                    <Button
+                        android:id="@+id/back"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:onClick="TomainAc"
+                        android:layout_below="@+id/nextVideo"
+                        android:layout_toRightOf="@+id/pauseVideo"
+                        android:text="返回" />
+                </RelativeLayout>
+            </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

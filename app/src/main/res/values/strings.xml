@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Navagate</string>
+    <string name="Study">我喜欢学习，学习使我快乐，
+        \n优秀是一种习惯。
+        \n我徜徉在知识的海洋里，
+        \n吮吸着知识的雨露。
+        \n妈妈叫我吃饭，我充耳不闻，
+        \n爸爸喊我喝水，我无动于衷，
+        \n奶奶喊我睡觉，我百般推辞。
+        \n世界上只有一种稳赚不赔的投资，
+        \n那就是学习。
+        \n我只想告诉你们，烟可以抽，
+        \n酒可以喝，容可以整，
+        \n架可以打，逼可以装，
+        \n但你要是不爱学习，
+        \n对不起，我们做不了朋友，
+        \n我爱读书，我爱学习!
+        \n学习使我快乐！</string>
+    <string name="on">ToggleButton打开了</string>
+    <string name="off">ToggleButton关闭了</string>
+    <string name="boy">男</string>
+    <string name="girl">女</string>
+    <string name="nameInfo">请输入您的名字</string>
+    <string name="info">
+            \n<b>东南大学</b>:www.seu.edu.cn
+            \n<b><i>百度</i></b>:www.baidu.com
+    </string>
+</resources>
